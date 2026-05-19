@@ -5,7 +5,7 @@
 
 ## Summary
 
-First production deploy. Central API live at `https://zeroauth.dev/v1/*`. Dashboard live at `https://zeroauth.dev/dashboard/*`. TLS via Caddy + Let's Encrypt. Hosted on VPS at `104.207.143.14`.
+First production deploy. Central API live at `https://api.zeroauth.dev/v1/*`. Dashboard live at `https://console.zeroauth.dev/*`. TLS via Caddy + Let's Encrypt. Hosted on VPS at `104.207.143.14`.
 
 ## API
 

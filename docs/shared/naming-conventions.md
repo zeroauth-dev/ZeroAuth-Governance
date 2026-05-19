@@ -7,12 +7,12 @@
 
 | Service | Repo name | Internal name | Hostname |
 |---|---|---|---|
-| Central API | `zeroauth-dev/ZeroAuth` | `zeroauth-api` | `api.zeroauth.dev` (planned; today: `zeroauth.dev/v1/*`) |
+| Central API | `zeroauth-dev/ZeroAuth` | `zeroauth-api` | `api.zeroauth.dev` (planned; today: `api.zeroauth.dev/v1/*`) |
 | Verifier | `zeroauth-dev/ZeroAuth-Verifier` (planned) | `zeroauth-verifier` | internal-only, behind API |
 | IoT firmware | `zeroauth-dev/ZeroAuth-IoT` (planned) | `zeroauth-iot` | (runs on Orange Pi devices) |
 | Mobile SDK | `zeroauth-dev/ZeroAuth-Mobile-SDK` (planned) | `zeroauth-sdk` | n/a (library) |
-| Dashboard | currently inside `zeroauth-dev/ZeroAuth: dashboard/` | `zeroauth-dashboard` | `zeroauth.dev/dashboard/` |
-| Docs site | inside `zeroauth-dev/ZeroAuth: website/` | `zeroauth-docs` | `zeroauth.dev/docs/` |
+| Dashboard | currently inside `zeroauth-dev/ZeroAuth: dashboard/` | `zeroauth-dashboard` | `console.zeroauth.dev` |
+| Docs site | inside `zeroauth-dev/ZeroAuth: website/` | `zeroauth-docs` | `docs.zeroauth.dev` |
 | Governance | `zeroauth-dev/ZeroAuth-Governance` *(this repo)* | `zeroauth-governance` | n/a (docs only) |
 
 ## Environment variables
