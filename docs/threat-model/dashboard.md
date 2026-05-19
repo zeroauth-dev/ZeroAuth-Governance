@@ -5,7 +5,7 @@
 
 ## Surfaces
 
-- React SPA served at `https://zeroauth.dev/dashboard/*`
+- React SPA served at `https://console.zeroauth.dev/*`
 - Console API consumed at `/api/console/*` (authenticated via JWT in `Authorization: Bearer` header)
 - 10 pages: Login, Signup, Overview, ApiKeys, Users, Devices, Verifications, Attendance, Audit, Settings
 

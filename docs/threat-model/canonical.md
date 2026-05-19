@@ -9,7 +9,7 @@ This is the **cross-repo source of truth** for ZeroAuth's threat model. Every pr
 
 | Surface | Component | Exposure | Notes |
 |---|---|---|---|
-| `https://zeroauth.dev/v1/*` | API | Public, tenant-API-key authed | Scoped to `(tenant_id, environment)`. Rate-limit + monthly quota per tenant. |
+| `https://api.zeroauth.dev/v1/*` | API | Public, tenant-API-key authed | Scoped to `(tenant_id, environment)`. Rate-limit + monthly quota per tenant. |
 | `https://zeroauth.dev/api/console/*` | API (console) | Public, JWT-authed for everything except signup + login | Per-IP rate limit on signup/login. Password policy enforced. |
 | `https://zeroauth.dev/api/admin/*` | API (admin) | Public, `x-api-key` (single shared admin key) | Read-only today. |
 | `https://zeroauth.dev/api/health` | API | Public, unauth | Health + subsystem status only. |
